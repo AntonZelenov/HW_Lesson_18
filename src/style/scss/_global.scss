@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-size: 23px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.56);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+i {
+  color: black;
+}
+
+.container {
+  max-width: 950px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}

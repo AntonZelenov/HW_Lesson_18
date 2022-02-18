@@ -1,0 +1,50 @@
+.invite {
+  background-color: $yellow;
+  padding: 102px 0 117px;
+
+  &__title {
+    max-width: 680px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    & h1 {
+      color: $olive;
+      font-size: 44px;
+      line-height: 54px;
+      margin-bottom: 54px;
+      font-style: normal;
+      font-weight: normal;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+    width: 100%;
+
+    &-input {
+      width: calc(100% - 240px);
+      height: 54px;
+      padding-left: 36px;
+      font-size: 30px;
+      color: $black-opacity;
+
+      &::placeholder {
+        font-size: 30px;
+        color: $grey;
+      }
+    }
+
+    &-button {
+      width: 240px;
+      height: 54px;
+      background-color: $olive;
+      color: $white;
+      font-size: 30px;
+      font-family: Roboto;
+    }
+  }
+}
