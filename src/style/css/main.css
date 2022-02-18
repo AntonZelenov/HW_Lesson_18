@@ -221,6 +221,7 @@ i {
 .mobile__image img {
   display: block;
   margin: 0 auto;
+  max-width: 380px;
   width: 100%;
 }
 
